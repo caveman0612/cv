@@ -1,0 +1,41 @@
+body {
+  background-color: #F7F6F2;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif ;
+}
+
+.hero {
+  /* background-color: #F0E5CF; */
+  position: relative;
+}
+
+h1 {
+  margin: 0;
+font-family: 'Sacramento', cursive;
+}
+
+h2 h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.frontEnd {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: relative;
+  left: 20em;
+  top: 5em;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.copyright {
+  width: .8rem;
+  margin-right: .3rem;
+}
