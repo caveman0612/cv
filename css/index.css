@@ -24,6 +24,8 @@ h3 {
   font-size: 2rem;
   color: #4B6587;
 }
+p {
+}
 
 hr {
   margin: 3rem 0
@@ -56,4 +58,9 @@ hr {
 .copyright {
   width: .8rem;
   margin-right: .3rem;
+}
+
+.project-row {
+  width: 50%;
+  margin: 0 auto;
 }
