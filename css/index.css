@@ -5,34 +5,52 @@ body {
   font-family: "Merriweather", serif ;
 }
 
-.hero {
-  /* background-color: #F0E5CF; */
-  position: relative;
-}
-
 h1 {
-  margin: 0;
-font-family: 'Sacramento', cursive;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px 0 0 0;
+  color: #4B6587;
 }
 
-h2 h3 {
+h2 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #4B6587;
+  font-weight: normal;
 }
 
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #4B6587;
+}
 
+hr {
+  margin: 3rem 0
+}
 
 .frontEnd {
   text-decoration: underline;
 }
 
+.hero {
+  position: relative;
+}
+
 .top-cloud {
   position: relative;
-  left: 20em;
+  left: 30em;
   top: 5em;
 }
 
 .bottom-cloud {
   position: absolute;
+}
+
+.img-one, .img-two {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
 }
 
 .copyright {
