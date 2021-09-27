@@ -23,12 +23,19 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   color: #4B6587;
+  margin-bottom: 0;
 }
-p {
+
+.projects p {
+  margin: 0;
 }
 
 hr {
-  margin: 3rem 0
+  margin: 5rem auto;
+  border: dotted #4B6587 1rem;
+  border-bottom: none;
+  width: 25%;
+
 }
 
 .frontEnd {
@@ -55,6 +62,15 @@ hr {
   height: 15em;
 }
 
+.img-one {
+  float: left;
+  margin-right: 3rem;
+}
+
+.img-two {
+  float: right;
+  margin-left: 3rem;
+}
 .copyright {
   width: .8rem;
   margin-right: .3rem;
@@ -62,5 +78,29 @@ hr {
 
 .project-row {
   width: 50%;
-  margin: 0 auto;
+  margin: 6rem auto;
+  text-align: left;
+  line-height: 2;
 }
+
+button {
+  padding: .7rem 1rem;
+  border-radius: 3rem;
+  background-color: #C8C6C6;
+  border: none;
+  box-shadow: 3px 3px 10px #8a8888;
+  
+}
+
+button:hover {
+  background-color: #8a8888;
+  cursor: pointer;
+}
+
+h4 {
+  margin: 0;
+}
+
+
+
+
